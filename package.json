@@ -1,6 +1,6 @@
 {
   "name": "heartbeat",
-  "version": "0.0.178",
+  "version": "0.0.179",
   "description": "Service that sends ping info through a socket periodically",
   "main": "eyeos-heartbeat.js",
   "author": "eyeOS",
