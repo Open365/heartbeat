@@ -1,0 +1,27 @@
+{
+  "name": "heartbeat",
+  "version": "0.0.178",
+  "description": "Service that sends ping info through a socket periodically",
+  "main": "eyeos-heartbeat.js",
+  "author": "eyeOS",
+  "homepage": "http://www.eyeos.com/",
+  "dependencies": {
+    "log2out": "*",
+    "eyeos-service-ready-notify": "*",
+    "redis": "~0.12.1"
+  },
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "chai": "1.8.0",
+    "sinon": "1.7.3",
+    "mocha": "1.20.1",
+    "grunt": "0.4.5",
+    "grunt-npm": "0.0.2",
+    "grunt-cli": "0.1.9",
+    "grunt-init": "0.2.1",
+    "grunt-shell": "0.7.0",
+    "grunt-mocha-test": "0.11.0"
+  },
+  "microservices": [],
+  "license": "AGPL-3.0"
+}
